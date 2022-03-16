@@ -1,0 +1,31 @@
+body {
+  background-color: #202124;
+  color: #bdc1c6;
+}
+
+#header {
+  padding-left: 100px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+#header span,
+#header nav {
+  padding: 5px 0px;
+}
+
+#header nav a {
+  color: #bdc1c6;
+  text-decoration-line: none;
+  margin-left: 5px;
+  /* background-color: red; */
+}
+
+#content {
+  border-top: 2px solid #bdc1c6;
+  padding: 20px 100px;
+}
+
+/* .section-1 {
+  background-color: salmon;
+} */
