@@ -3,7 +3,12 @@ body {
   color: #bdc1c6;
 }
 
-#header {
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+/* #header {
   padding-left: 100px;
   padding-bottom: 10px;
   align-items: center;
@@ -12,19 +17,18 @@ body {
 #header span,
 #header nav {
   padding: 5px 0px;
-}
+} */
 
-#header nav a {
+/* .header nav a {
   color: #bdc1c6;
   text-decoration-line: none;
   margin-left: 5px;
-  /* background-color: red; */
-}
+} */
 
-#content {
+/* #content {
   border-top: 2px solid #bdc1c6;
   padding: 20px 100px;
-}
+} */
 
 /* .section-1 {
   background-color: salmon;

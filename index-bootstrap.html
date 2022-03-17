@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <title>Operator Form</title>
+  </head>
+  <body style="background-color: #202124; color: #bdc1c6">
+    <header class="container p-3">
+      <h1 class="p-3 text-center">Operator Form</h1>
+      <img class="img-fluid img-thumbnail d-block mx-auto" src="/skadi.gif" alt="" />
+    </header>
+
+    <div class="container border col-md-10 col-xl-6 p-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" />
+        </div>
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Codename</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Rarity</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Rarity</option>
+            <option value="1">1 stars</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+            <option value="6">6 stars</option>
+          </select>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Position</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Position</option>
+            <option value="1">Melee</option>
+            <option value="2">Ranged</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Job</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Job</option>
+            <option value="1">Caster</option>
+            <option value="2">Guard</option>
+            <option value="3">Medic</option>
+            <option value="4">Sniper</option>
+            <option value="5">Specialist</option>
+            <option value="6">Supporter</option>
+            <option value="7">Defender</option>
+            <option value="8">Vanguard</option>
+          </select>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Gender</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <label for="exampleFormControlInput1" class="form-label">Tag</label>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Healing" />
+            <label class="form-check-label" for="Healing"> Healing </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="DPS" />
+            <label class="form-check-label" for="DPS"> DPS </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="AOE" />
+            <label class="form-check-label" for="AOE"> AoE </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Nuker" />
+            <label class="form-check-label" for="Nuker"> Nuker </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Shift" />
+            <label class="form-check-label" for="Shift"> Shift </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Summon" />
+            <label class="form-check-label" for="Summon"> Summon </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Support" />
+            <label class="form-check-label" for="Support"> Support </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Slow" />
+            <label class="form-check-label" for="Slow"> Slow </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Survival" />
+            <label class="form-check-label" for="Survival"> Survival </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Defense" />
+            <label class="form-check-label" for="Defense"> Defense </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Debuff" />
+            <label class="form-check-label" for="Debuff"> Debuff </label>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-2 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Robot" />
+            <label class="form-check-label" for="Robot"> Robot </label>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid text-center pt-5">
+        <button class="btn btn-outline-light" type="submit">Submit form</button>
+      </div>
+    </div>
+    <footer>
+      <h5 class="text-end p-2"><i class="bi bi-emoji-smile"></i> Elqlyn</h5>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
